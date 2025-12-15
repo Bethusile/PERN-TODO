@@ -1,0 +1,6 @@
+/* client/src/App.css */
+.App {
+  background-color: #121212; /* Dark background */
+  min-height: 100vh;
+  padding-top: 20px;
+}
