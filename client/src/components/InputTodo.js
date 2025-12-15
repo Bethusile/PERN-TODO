@@ -42,7 +42,7 @@ const InputTodo = () => {
         align="center" 
         gutterBottom
         sx={{ 
-            color: 'white', // White text for visibility on dark background
+            color: 'black', // light background
             textShadow: '0 0 10px rgba(0, 255, 255, 0.5)', // Subtle glow for 'vibrant' theme
             fontWeight: 700
         }}
@@ -58,8 +58,8 @@ const InputTodo = () => {
           value={description}
           onChange={e => setDescription(e.target.value)}
           sx={{ 
-              input: { color: 'white' }, // Text color
-              '& .MuiInputLabel-root': { color: 'cyan' }, // Label color
+              input: { color: 'black' }, // Text color
+              '& .MuiInputLabel-root': { color: 'grey' }, // Label color
               '& .MuiFilledInput-root': {
                   backgroundColor: 'rgba(255, 255, 255, 0.1)', // 'Glassmorphism' background
                   backdropFilter: 'blur(10px)',
@@ -70,12 +70,12 @@ const InputTodo = () => {
         <Button 
           type="submit" 
           variant="contained" 
-          color="primary"
+          //color="primary"
           sx={{ 
               minWidth: '150px', 
               fontSize: '1rem',
               // Vibrant button style
-              background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+              backgroundColor: '#FF4081',
               boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
           }}
         >

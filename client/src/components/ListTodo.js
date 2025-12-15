@@ -54,7 +54,7 @@ const ListTodo = () => {
   // --- RENDERING ---
   return (
     <Container maxWidth="md" sx={{ mt: 5 }}>
-      <Typography variant="h4" gutterBottom align="center" sx={{ color: 'white', mb: 3 }}>
+      <Typography variant="h4" gutterBottom align="center" sx={{ color: 'red', mb: 3 }}>
         Your To-Do List
       </Typography>
 
@@ -71,9 +71,9 @@ const ListTodo = () => {
         <Table sx={{ minWidth: 650 }} aria-label="simple table">
           <TableHead>
             <TableRow>
-              <TableCell sx={{ color: 'cyan', fontWeight: 'bold' }}>Description</TableCell>
-              <TableCell align="right" sx={{ color: 'cyan', fontWeight: 'bold' }}>Edit</TableCell>
-              <TableCell align="right" sx={{ color: 'cyan', fontWeight: 'bold' }}>Delete</TableCell>
+              <TableCell sx={{ color: 'royalblue', fontWeight: 'bold' }}>Description</TableCell>
+              <TableCell align="right" sx={{ color: 'royalblue', fontWeight: 'bold' }}>Edit</TableCell>
+              <TableCell align="right" sx={{ color: 'royalblue', fontWeight: 'bold' }}>Delete</TableCell>
             </TableRow>
           </TableHead>
           
@@ -84,7 +84,7 @@ const ListTodo = () => {
                 key={todo.todo_id}
                 sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
               >
-                <TableCell component="th" scope="row" sx={{ color: 'white' }}>
+                <TableCell component="th" scope="row" sx={{ color: 'royalblue' }}>
                   {todo.description}
                 </TableCell>
                 
