@@ -124,11 +124,11 @@ const EditTodo = ({ todo }) => {
           </Button>
           <Button 
             onClick={updateDescription} 
-            color="primary" 
+            color="info" 
             variant="contained"
             sx={{
                 // Vibrant save button style
-                background: '#21CBF3 100%)',
+                background: '#FF4081',
                 boxShadow: '0 3px 5px 2px rgba(33, 203, 243, .3)',
             }}
           >
